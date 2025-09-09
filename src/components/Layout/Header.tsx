@@ -16,7 +16,7 @@ import BestsellerMegaMenu from "@/data/bestseller_mega";
 import BrandsMegaMenu from "./BrandsMegaMenu";
 import AnnouncementBar from "./AnnouncementBar";
 
-import logoImage from "@/assets/logo.svg";
+import logoImage from "@/assets/New logo-01.png";
 import { productApi, Product, searchApi, SearchSuggestion } from "@/services/api";
 
 // Custom SVG Icons - All in gray color
@@ -480,7 +480,7 @@ const Header: React.FC = () => {
                   <img
                     src={logoImage}
                     alt="O2 Nutrition Logo"
-                    className="h-auto w-[160px] object-contain pt-4 pb-4"
+                    className="h-auto w-[240px] object-contain pt-4 pb-4"
                   />
                 </Link>
 
