@@ -1,5 +1,6 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
-const PAYLOAD_API_BASE = import.meta.env.VITE_API_BASE_URL || "/api";
+
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://o2nu.store/api";
+const PAYLOAD_API_BASE = import.meta.env.VITE_API_BASE_URL || "https://o2nu.store/api";
 
 export interface Product {
   id: string;
