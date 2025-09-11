@@ -7,7 +7,7 @@ interface UserData {
 }
 
 export async function login(email: string, password: string) {
-  const response = await fetch("http://localhost:7777/api/auth/login", {
+  const response = await fetch("/api/auth/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -20,8 +20,10 @@ export async function login(email: string, password: string) {
   return data;
 }
 
+// http://localhost:7777/api/auth/signup
+
 export async function signup(userData: UserData) {
-  const response = await fetch("http://localhost:7777/api/auth/signup", {
+  const response = await fetch("/api/auth/signup", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
